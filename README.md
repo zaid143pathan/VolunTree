@@ -1,10 +1,10 @@
 # VoulenTree 🌳
 
-A web application for login and registration with backend validation using Flask.
+A web application for Connecting volunteers and NGOs through a simple, powerful platform for social impact.
 
 ---
 
-## 🚀 Features
+## Features
 - User Login with validation.
 - Registration for new users if they don't exist.
 - Backend handling using Flask.
