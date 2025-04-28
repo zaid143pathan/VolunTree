@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VolunTree</title>
+    <link rel="stylesheet" href="afterstyle.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section id="homepage">
+        <nav class="navbar section-p">
+            <div class="logo">
+                <!-- <img src="/images/tree-solid.svg" alt="logo image" class="icon"> -->
+                <img src="images/tree-solid.svg" alt="Example Image" style="height: 40px;">
+                <h1>VolunTree</h1>
+            </div>
+            <div class="texts">
+                <a href="#home-main">Home</a>
+                <a href="#opportunities-main">Opportunities</a>
+                <a href="#page3">Blogs</a>
+                <a href="#about-main">About Us</a>
+                <a href="#about-main">Contact Us</a>
+            </div>
+            <div id="login">
+                <button>Sign-out</button>
+            </div>
+        </nav>
+        <!-- Strip -->
+        <div id="strip">
+            <p>
+                <b>"VolunTree: Rooted in Service, United for Impact." 🌳💙</b>
+            </p>
+        </div>
+        <!-- Hero -->
+        <main class="hero section-p" id="home-main">
+            <h1 class="hero-title">Where Volunteers and NGOs Meet to Make a Difference.</h1>
+            <div id="hero-btns">
+                <button class="btn1"> Search opportunity</button>
+                <!-- <button class="btn2"> Register Now</button> -->
+            </div>
+        </main>
+         <!-- Tagline -->
+         <div id="tagline">
+            <div style="margin-bottom: 30px; background-color: rgb(6, 6, 91);width: 100%;height: 120px; padding: 10px; justify-content: center;">
+                <div class="carousel-container1">
+                    <div class="carousel-wrapper1">
+                        <!-- <button class="prev2" onclick="moveSlide2(-1)">&#10094;</button> -->
+                        <div class="carousel1">
+                            <img src="images/ngologo1.png" alt="Image 1" class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo1.png') }}" alt="Example Image" class="imgslider1"> -->
+                            <img src="images/ngologo2 (1).png" alt="Image 2" class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo2 (1).png') }}" alt="Example Image" class="imgslider1"> -->
+                            <img src="images/ngologo3 (3).png" alt="Image 3" class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo3 (3).png') }}" alt="Example Image" class="imgslider1"> -->
+                            <img src="images/ngologo4 (4).png" alt="Image 4"class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo4 (4).png') }}" alt="Example Image" class="imgslider1"> -->
+                            <img src="images/ngologo5.png" alt="Image 5"class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo5.png') }}" alt="Example Image" class="imgslider1"> -->
+                            <img src="images/ngologo1.png" alt="Image 1" class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo1.png') }}" alt="Example Image" class="imgslider1"> -->
+                            <img src="images/ngologo2 (1).png" alt="Image 2" class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo2 (1).png') }}" alt="Example Image" class="imgslider1"> -->
+                            <img src="images/ngologo3 (3).png" alt="Image 3" class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo3 (3).png') }}" alt="Example Image" class="imgslider1"> -->
+                            <img src="images/ngologo4 (4).png" alt="Image 4"class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo4 (4).png') }}" alt="Example Image" class="imgslider1"> -->
+                            <img src="images/ngologo5.png" alt="Image 5"class="imgslider1">
+                            <!-- <img src="{{ url_for('static', filename='images/ngologo5.png') }}" alt="Example Image" class="imgslider1"> -->
+                        </div>
+                        <!-- <button class="next2" onclick="moveSlide2(1)">&#10095;</button> -->
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+        <!-- search bar -->
+         <div style="height:150px;width:100%; " id="opportunities-main">
+        <div class="searchbar" style="   display: inline-block; height: 100px;width: 300px; margin-right: 800px;margin-left: 250px;margin-bottom: 50px;" >
+        <form style="width: 200px; float: left;">
+            <img class="searchbar-img" style="height: 50px;width: 50px;" src="images/location-icon-24.png"><br> 
+            <select    name="loaction" id="loaction-search-bar" placeholder="Enter your loaction"  style="width: 200px; margin-left: 20px; height: 40px;">
+    
+                <option disabled selected >Enter your loaction</option>
+                <option value="Hapur">Hapur</option>
+                <option value="jewar">Jewar</option>
+                <option value="jhajjar">Jhajjar</option>
+                <option value="karnal">Karnal</option>
+                <option value="manesar">Manesar</option>
+                <option value="modinagar">Modinagar</option>
+                <option value="deli">Faridabad</option>
+                <option value="deli">Ghaziabad</option>
+                <option value="delh" >Greater Noida</option>
+                <option value="de">Gurugram</option>
+                <option value="delh">New Delhi</option>
+                <option value="deli">Noida</option>
+                <option value="deli">Meerut</option>
+                
+            </select>
+        </form>
+</div>
+<div class="searchbar" style="height: 100px; display: inline-block; margin-bottom: 50px;margin-top: 13px; margin-left: -400px;">
+        <form style="width: 300px; float: right; height: 100px;">
+          <img class="searchbar-img" style="height: 50px;width: 50px;" src="images/speclogo.png"><br>
+          
+                <select    name="loaction" id="loaction-search-bar" placeholder="enter your loaction"  style="width: 200px; margin-left: 20px; height: 40px;">
+        
+                    <option disabled selected >Enter your Specialization</option>
+                    
+                    <option value="education">Education & Tutoring</option>
+                    <option value="healthcare">Healthcare & Medical Assistance</option>
+                    <option value="environment">Environmental Conservation</option>
+                    <option value="animal_welfare">Animal Welfare</option>
+                    <option value="community_service">Community Service & Outreach</option>
+                    <option value="disaster_relief">Disaster Relief & Emergency Response</option>
+                    <option value="elderly_care">Elderly Support & Care</option>
+                    <option value="child_welfare">Child Welfare & Mentoring</option>
+                    <option value="mental_health">Mental Health Support</option>
+                    <option value="technology">Technology & Digital Literacy</option>
+                    <option value="sports_coaching">Sports Coaching & Fitness</option>
+                    <option value="arts_culture">Arts, Culture & Heritage</option>
+                    <option value="fundraising">Fundraising & Grant Writing</option>
+                    <option value="disability_support">Disability Support & Inclusion</option>
+                    <option value="refugee_assistance">Refugee & Migrant Assistance</option>
+                    <option value="food_distribution">Food Distribution & Hunger Relief</option>
+                    <option value="legal_aid">Legal Aid & Advocacy</option>
+                    <option value="public_safety">Public Safety & Crisis Intervention</option>
+                </select>
+            </form>
+        </div>
+        </div>
+
+        <!-- Opportunities -->
+        <main class="opportunities section-p" >
+            <main class="oppo-container">
+                <div class="oppo-img">
+                    <img src="images/eventmanagement-img.jpg">
+                    
+                
+                <h4 class="oppo-title">Work: help desk</h4>
+
+                <p class="oppo-content">Requirement 6 females, 2 at each location <br>
+                    Date:7th - 8th March<br>
+                    Locations: Terminal 1, Terminal 2, Terminal 3 airport, delhi <br>
+                    
+                    Timings- 12hr shift <br>
+                    Payment-1500<br>
+                    Food provided<br> </p>
+                </div>
+                <div class="oppo-read-more">
+                    <a href="/">Get Details</a>
+                    <!-- <img src="/images/arrow-right-solid.svg" alt="read more link" /> -->
+                    <img src="images/arrow-right-solid.svg" alt="Example Image">
+                </div>
+            </main>
+
+            <main class="oppo-container">
+                <div class="oppo-img">
+                    <img src="images/eventmanagement-img.jpg"
+                    
+                    alt="opportunities-img" class="oppo-cover" />
+                
+                <h4 class="oppo-title">Work: help desk</h4>
+
+                <p class="oppo-content">Requirement 6 females, 2 at each location <br>
+                    Date:7th - 8th March<br>
+                    Locations: Terminal 1, Terminal 2, Terminal 3 airport, delhi <br>
+                    
+                    Timings- 12hr shift <br>
+                    Payment-1500<br>
+                    Food provided<br> </p>
+                </div>
+                <div class="oppo-read-more">
+                    <a href="/">Get Details</a>
+                    <!-- <img src="/images/arrow-right-solid.svg" alt="read more link" /> -->
+                    <img src="images/arrow-right-solid.svg" alt="Example Image">
+                </div>
+            </main>
+
+            <main class="oppo-container">
+                <div class="oppo-img">
+                    <img src="images/wastemanagement-image.jpg"
+                    
+                    alt="opportunities-img" class="oppo-cover" />
+                
+                <h4 class="oppo-title">Work: help desk</h4>
+
+                <p class="oppo-content">Requirement 6 females, 2 at each location <br>
+                    Date:7th - 8th March<br>
+                    Locations: Terminal 1, Terminal 2, Terminal 3 airport, delhi <br>
+                    
+                    Timings- 12hr shift <br>
+                    Payment-1500<br>
+                    Food provided<br> </p>
+                </div>
+                <div class="oppo-read-more">
+                    <a href="/">Get Details</a>
+                    <!-- <img src="/images/arrow-right-solid.svg" alt="read more link" /> -->
+                    <img src="images/arrow-right-solid.svg" alt="Example Image">
+                </div>
+            </main>
+        </main>
+
+        <!-- Slider -->
+        <main class="slider section-p">
+            <button class="slider-btn prev" onclick="moveSlide(-1)">
+                
+                <img src="images/less-than-solid.svg" alt="slider-btn-img" class="icon" />
+            </button>
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <div class="slider-content">
+                        <h4>Health Care</h4>
+                        <img src="/images/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <!-- <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+                    </div>
+                    <div class="slider-content">
+                        <h4>Education</h4>
+                        <img src="/images/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <!-- <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+
+                    </div>
+                    <div class="slider-content">
+                        <h4>Community</h4>
+                        <img src="/images/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <!-- <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+                    </div>
+                    <div class="slider-content">
+                        <h4>Sports</h4>
+                        <img src="/images/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <!-- <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+                    </div>
+                    <div class="slider-content">
+                        <h4>Arts & Culture</h4>
+                        <img src="/images/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <!-- <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+                    </div>
+                    <div class="slider-content">
+                        <h4>Farming & Agriculture</h4>
+                        <img src="/images/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <!-- <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+                    </div>
+                    <div class="slider-content">
+                        <h4>Charity</h4>
+                        <img src="/images/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <!-- <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+                    </div>
+                    <div class="slider-content">
+                        <h4>Youth Work</h4>
+                        <img src="/images/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <!-- <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+                    </div>
+                    <div class="slider-content">
+                        <h4>Adult Companionships</h4>
+                        <img src="/images/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <!-- <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn next" onclick="moveSlide(1)">
+                <img src="/images/greater-than-solid.svg" alt="slider-btn-img" class="icon" />
+                <!-- <img src="{{ url_for('static', filename='images/greater-than-solid.svg') }}" alt="slider-btn-img" class="icon" /> -->
+            </button>
+        </main>
+
+
+        
+        <!-- blog -->
+        <div id="page3" class="section-p" >
+            <h2 id="page3heading">what our members have to say</h2>
+            <div class="carousel-container">
+                <div class="carousel-wrapper">
+                    <button class="prev1" onclick="moveSlide1(-1)">&#10094;</button>
+                    <div class="carousel">
+                        <img src="images/review1.jpg" alt="Image 1" class="imgslider">
+                        <img src="images/review2.jpg" alt="Image 2" class="imgslider">
+                        <img src="images/review3.jpg" alt="Image 3" class="imgslider">
+                        <img src="images/review4.jpg" alt="Image 4"class="imgslider">
+                        <img src="images/review5.jpg" alt="Image 5"class="imgslider">
+                    </div>
+                    <button class="next1" onclick="moveSlide1(1)">&#10095;</button>
+                </div>
+            </div>
+        
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer" class="section-p">
+            <main id="footer-container">
+                <div class="col">
+                    <h3 class="logo-title">VolunTree</h3>
+                </div>
+                <div class="col" id="about-main">
+                    <a class="title">About Us</a>
+                    <div class="footer-links">
+                        <a>Our Story</a>
+                        <a>Meet the Team: <br>Zaid Khan<br> Harsh Yadav <br> Harkiran Kaur <br> Deepak Yadav <br> Abhishek Verma
+                        </a>
+                        <a>Careers</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4 class="title">Our Services</h4>
+                    <div class="footer-links">
+                        <a href="/services">What We Offer</a>
+                        <a href="/pricing">Pricing</a>
+                        <a href="/support">Customer Support</a>
+                    </div>
+                </div>
+                <div id="footer-social" class="col">
+                    <h4 class="title">Support</h4>
+                    <div class="footer-links">
+                        <a href="/faq">FAQs</a>
+                        <a href="/contact">Contact Us</a>
+                        <a href="/Number">+91 8439213771</a>
+                    </div>
+                </div>
+                <div class="col social">
+                    <button class="footer-logIn">
+                        <Link to='/login'>Log In</Link>
+                    </button>
+                </div>
+            </main>
+
+            <section id="footer-bottom">
+                <div class="copyright">
+                    <small>© 2024 Your Company. All Rights Reserved.</small>
+                </div>
+                <div class="privacy">
+                    <a>Privacy Policy</a>
+                    <a>Terms of Service</a>
+                    <a>Cookies Policy</a>
+                </div>
+            </section>
+        </footer>
+
+    </section>
+    <script src="afterscript.js"></script>
+</body>
+
+</html>
