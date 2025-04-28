@@ -11,3 +11,8 @@ A web application for Connecting volunteers and NGOs through a simple, powerful 
 - Frontend using HTML and CSS.
 
 ---
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS
+- **Backend:** Python (Flask)
+- **Database:** CSV (or can be extended)
+
